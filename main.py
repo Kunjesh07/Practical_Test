@@ -4,7 +4,7 @@ from langchain.chains import ConversationChain
 
 
 # Initialize LangChain
-chat_model = ChatOpenAI(temperature=0.7, openai_api_key="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")
+chat_model = ChatOpenAI(temperature=0.7, openai_api_key="Enter you openai api key")
 prompt = PromptTemplate(
     input_variables=["history", "input"],
     template="You are a friendly assistant at a dental clinic. {history} Patient: {input}"
